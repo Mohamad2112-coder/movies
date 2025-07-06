@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Watchlist</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎬 Movie Watchlist</h1>
+
+      <form id="movieForm">
+        <input type="text" id="title" placeholder="Movie Title" required />
+        <input type="text" id="genre" placeholder="Genre" required />
+        <input type="number" id="year" placeholder="Release Year" required />
+        <button type="submit">Add Movie</button>
+      </form>
+
+      <input type="text" id="search" placeholder="Search movies..." />
+
+      <h2>📺 Movies To Watch</h2>
+      <ul id="toWatchList"></ul>
+
+      <h2>✅ Watched Movies</h2>
+      <ul id="watchedList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
